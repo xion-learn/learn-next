@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -8,5 +8,5 @@ export default function Home() {
       <br />
       <Link href="/throw-error">go to throw-error</Link>
     </main>
-  );
+  )
 }
